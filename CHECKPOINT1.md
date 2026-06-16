@@ -15,6 +15,8 @@ This checkpoint covers foundational networking concepts using hands-on tools lik
 The IP address `8.8.8.8` (Google's DNS) is commonly used as the target since Google's servers are almost always online, making it a reliable benchmark.
 
 **Objective:** To check for packet loss and measure the TTL (Time To Live) of packets sent across the network.
+<img width="2252" height="2276" alt="Checkpoint 1_page-0001" src="https://github.com/user-attachments/assets/14a9dbdb-0611-46c4-b572-7596f84162c6" />
+
 
 ---
 
@@ -24,12 +26,15 @@ Traceroute shows the number of hops packets take to reach their destination.
 
 - In this lab, **two hops** were observed.
 - Each line in the output displays the address of a router/node that the packet passes through before being forwarded to the next hop.
+- <img width="2330" height="2152" alt="Checkpoint 1_page-0002" src="https://github.com/user-attachments/assets/6ece0458-e5e9-4d4d-901b-871d3e457025" />
+
 
 ---
 
 ### Q3 — Ping results from VM and Host
 
 Ping requests were **successful from both** the virtual machine and the host machine when tested under the same network conditions.
+<img width="2550" height="3300" alt="Checkpoint 1_page-0004" src="https://github.com/user-attachments/assets/c9e7eddb-5cee-4583-b339-1fd530c75d2a" />
 
 ---
 
@@ -41,6 +46,7 @@ Ping requests were **successful from both** the virtual machine and the host mac
 | Bridged | ✅ Successful | VM gets an IP directly from the LAN's DHCP server — appears as a real device on the network |
 
 **Key Insight:** In NAT mode, the VM is behind a virtual NAT router and cannot be reached from other LAN devices. In Bridged mode, the VM behaves like a physical machine on the network.
+<img width="2550" height="3300" alt="Checkpoint 1_page-0005" src="https://github.com/user-attachments/assets/f091e71a-249b-4187-bc0c-4e2c497fbab6" />
 
 ---
 
@@ -49,6 +55,7 @@ Ping requests were **successful from both** the virtual machine and the host mac
 Successfully reached the XAMPP page while the VM was in **Bridged network mode**.
 
 > **Note:** Windows Firewall was temporarily disabled to allow the connection.
+<img width="2550" height="2292" alt="Checkpoint 1_page-0006" src="https://github.com/user-attachments/assets/80a218a9-1748-4dfe-8c47-3c5a6d3befda" />
 
 ---
 
@@ -66,6 +73,7 @@ Successfully reached the XAMPP page while the VM was in **Bridged network mode**
 
 **Web Server:** Apache HTTPD 2.4.58  
 **Database:** MariaDB 10.3.23
+<img width="2550" height="3300" alt="Checkpoint 1_page-0008" src="https://github.com/user-attachments/assets/35c64b76-ce0a-4140-910e-7012dd56bb21" />
 
 ---
 
