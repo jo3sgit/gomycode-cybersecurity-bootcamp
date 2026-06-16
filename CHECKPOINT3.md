@@ -1,4 +1,4 @@
-<img width="2550" height="3300" alt="checkpoint 3_page-0003" src="https://github.com/user-attachments/assets/e741a3ba-a5bc-48d3-bc20-3201bd781526" /><img width="2550" height="3300" alt="checkpoint 3_page-0003" src="https://github.com/user-attachments/assets/ad6f121d-2028-48ee-9beb-31fdc0bc9b6f" /><img width="2550" height="3300" alt="checkpoint 3_page-0003" src="https://github.com/user-attachments/assets/f41c0c48-b2d4-411f-a1d9-94cc16fed7ab" /><img width="2550" height="3300" alt="checkpoint 3_page-0003" src="https://github.com/user-attachments/assets/bf438631-45cd-409c-95af-f4c6885383cc" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/a15c2276-3979-4470-8350-dddc09518c59" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/0f7b39ce-627d-4325-9bba-8546764027fa" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/28dbe471-e0b1-4e56-bcf5-c7be49223b8f" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/87074bb1-c036-40f2-a4d4-1240a7d6fe5d" /><img width="2550" height="3300" alt="checkpoint 3_page-0003" src="https://github.com/user-attachments/assets/81e69a56-7d01-4c9b-a9e5-b85a2ec24f72" /><img width="2550" height="3300" alt="checkpoint 3_page-0003" src="https://github.com/user-attachments/assets/d52bd9e6-957a-4dad-bed1-a73eed8c4b65" /><img width="2550" height="3300" alt="checkpoint 3_page-0003" src="https://github.com/user-attachments/assets/4a966bad-e49d-404e-8a1a-03cc85102989" /><img width="2550" height="3300" alt="checkpoint 3_page-0003" src="https://github.com/user-attachments/assets/4880af9c-f68e-43fa-a395-32b97d09c816" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/d3d2a6e6-0dd6-4dd5-beb7-19f0176ed1db" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/3026cd62-33c3-482d-9725-e927fc296224" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/79556598-4a23-4453-959e-f576735b45c1" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/3d94c87b-768c-4dfd-8e4f-4e4ffc7f5127" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/aef6043f-e698-4c3a-b36a-106d8413c54d" /><img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/05786486-e118-4801-af4f-e153a12a2791" /># Checkpoint 3 — Threat Actors, Malware & Social Engineering
+Checkpoint 3 — Threat Actors, Malware & Social Engineering
 
 ## Overview
 
@@ -60,8 +60,6 @@ Yes. The `rm -rf /*` command causes a complete system wipe, rendering the machin
 The attacker encoded the script in Base64 to bypass security filters that scan for plain-text keywords like `rm -rf`. Once decoded, the script becomes fully executable.
 <img width="2550" height="1213" alt="checkpoint 3_page-0002" src="https://github.com/user-attachments/assets/f8776fa1-55b6-49d3-960b-04f3b100fc95" />
 
-
-
 ---
 
 ### Q4 — Social Engineering & Phishing
@@ -99,6 +97,7 @@ The sample email analyzed was a **phishing attack** with the following character
 | Missing `X-Frame-Options` header | Site vulnerable to clickjacking attacks |
 | Missing `X-Content-Type-Options` header | Browser MIME-type sniffing attacks possible |
 | HTTP TRACE method enabled | Host vulnerable to Cross-Site Tracing (XST) |
+<img width="2550" height="2375" alt="checkpoint 3_page-0003" src="https://github.com/user-attachments/assets/20111dc1-da77-413d-84e4-71786573d516" />
 
 ---
 
@@ -109,6 +108,7 @@ Analyzed a website URL using **VirusTotal**.
 The scan was reviewed by multiple security vendors including Avast, Bitdefender, Kaspersky, Fortinet, and Google Safe Browsing — all returned a **clean** result.
 
 **VirusTotal** aggregates threat intelligence from dozens of antivirus engines and URL scanners, making it a powerful tool for quick threat verification.
+<img width="2550" height="2477" alt="checkpoint 3_page-0004" src="https://github.com/user-attachments/assets/e5cf1791-281a-4be3-aa3f-12bed0b891b0" />
 
 ---
 
