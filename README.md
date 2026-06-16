@@ -12,7 +12,7 @@ gomycode-cybersecurity-checkpoints/
 ├── checkpoint-2/   → Security Fundamentals (CIA, AAA, Cryptography)
 ├── checkpoint-3/   → Threat Actors, Malware & Social Engineering
 ├── checkpoint-4/   → Network Security, Cloud & Data Protection
-├── checkpoint-5/   → (Image-based submission — see notes)
+├── checkpoint-5/   → Security Program Management & Penetration Testing Lab
 └── README.md
 ```
 
@@ -26,7 +26,7 @@ gomycode-cybersecurity-checkpoints/
 | 2 | Security Fundamentals | CIA Triad, AAA, Symmetric vs Asymmetric Encryption, Steganography, Security Controls |
 | 3 | Threats & Malware | Threat Actors, Malware Types, Social Engineering, Bash Script Analysis, Vulnerability Scanning |
 | 4 | Network Security & Data Protection | Firewalls, IDS/IPS, Cloud Models, Zero-Trust, Data Classification, Backup & Resilience |
-| 5 | (Practical/Image Submission) | Screenshots-based lab — content not text-extractable |
+| 5 | Security Program Management & Pen Testing | GDPR, HIPAA, PCI DSS, Shodan IoT Discovery, CVE/NVD Vulnerability Research |
 
 ---
 
@@ -34,7 +34,9 @@ gomycode-cybersecurity-checkpoints/
 
 - **Networking:** Ping, Traceroute, Nmap, XAMPP, VirtualBox (NAT & Bridged modes)
 - **Security Concepts:** CIA Triad, AAA Framework, TLS/SSL, AES, Base64 encoding
-- **Threat Intelligence:** VirusTotal, malware classification (Virus, Worm, Trojan, Ransomware, Spyware, Rootkit)
+- **Threat Intelligence:** VirusTotal, Shodan, malware classification (Virus, Worm, Trojan, Ransomware, Spyware, Rootkit)
+- **Vulnerability Research:** CVE (cve.org), NIST NVD, CVSS scoring, CWE classification
+- **Compliance:** GDPR, HIPAA, PCI DSS
 - **Defense Tools:** Firewalls, IDS, IPS, DLP, MFA, VPNs, Zero-Trust Architecture
 - **Cloud:** IaaS, PaaS, SaaS
 
@@ -50,5 +52,4 @@ gomycode-cybersecurity-checkpoints/
 
 ## 📌 Notes
 
-- Checkpoint 5 and one version of Checkpoint 2 were primarily image/screenshot-based submissions and are documented with descriptions rather than raw text.
 - All written answers are my own original work submitted during the course.
